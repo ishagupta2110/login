@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login page</title>
+</head>
+<style>
+
+     body{ 
+         background : url(./notebook-1280538_1280.jpg) ; 
+     } 
+    .login{
+        height: 50%;
+        width: 30%;
+        position: absolute;
+        top: 20%;
+        left: 5%;
+        margin: 3px;
+        padding: 20px;
+        border-radius: 10px;
+        
+    }
+     .login h1{
+         float: left;
+         font-size: 100px;
+         border-bottom: 2px solid red;
+        
+    } 
+    .textbox{
+     margin:1px ;
+     padding: 3px;
+     width: 70%;
+     position: relative;
+     
+     border-bottom: 2px solid red;
+     
+
+    }
+    .textbox1{
+     margin:1px ;
+     padding: 3px;
+     width: 70%;
+     position: relative;
+    }
+    .textbox input{
+        border: none;
+        outline: none;
+        background: none;
+        color :red;
+        border-radius: 39px;
+        width: 160px;
+        padding: 6px;
+        margin: 0px;
+        font-size: 20px;
+    }
+    .btn{
+        border: 2px solid rgb(223, 206, 198);
+        background-color: black;
+        color:white;
+        margin: 10px;
+        padding: 9px;
+        font-size: 14px;
+        border-radius: 8px;
+        width: 70%;
+    }
+    .textbox input:hover{
+        border: 2px solid black;
+    }
+    .btn:hover{
+        border: 3px solid red;
+    }
+
+</style>
+<body>
+    <div class="login">
+        <h1 style="color: black;">LOGIN</h1>
+        <div class="textbox">
+           <span>&#9993</span> <input type="text" placeholder="USERNAME" name="">
+        </div>
+        <div class="textbox">
+          <span>&#128272</span>  <input type="password" placeholder="PASSWORD" name="">
+        </div>
+        <div class="textbox1">
+        <input type="checkbox">REMEMBER ME 
+        </div >
+        <button class="btn">SIGN IN</button>
+        
+    </div>
+</body>
+</html>
